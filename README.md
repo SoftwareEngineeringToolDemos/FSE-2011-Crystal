@@ -44,14 +44,14 @@ This repository contains information related to the tool Crystal presented at Fo
  
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
-* [The Official Project Page] (https://github.com/brunyuriy/crystalvc)
+* [The Official Project Page, including source code] (https://github.com/brunyuriy/crystalvc)
 * [A video of the tool] (http://people.cs.umass.edu/~brun/video/Brun11esecfse/)
 
 In this repository, for Crystal you will find:
 
 :white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/tree/master/src/crystal) ( available)
 
-:white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal) (available)
+:white_check_mark: [The original tool](https://github.com/brunyuriy/crystalvc/wiki/CrystalUserManual) (available)
 
 This repository was constructed by [Karan Singh Dagar](https://github.com/KaranDagar) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yuriy Brun , Reid Holmes , Michael D. Ernst and David Notkin for their help in establishing this repository.
 
