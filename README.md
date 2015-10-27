@@ -35,3 +35,23 @@ Haochen Wei,
 ## Acknowledgements ##
 
 This work is supported by Microsoft Research through the Software Engineering Innovation Foundation grant, by the National Science Foundation under Grant# 0963757 and Grant #0937060 to the Computing Research Association for the CIFellows Project, by the National Science and Engineering Research Council Postdoctoral Fellowship, and by IBM through a John Backus Award.
+
+##Acknowledgements by Karan Singh Dagar##
+
+#FSE-2011-Crystal
+
+This repository contains information related to the tool Crystal presented at Foundations of Software Engineering, 2011. The tool was originally presented in [this paper] (http://dl.acm.org/citation.cfm?id=2025113.2025187&coll=DL&dl=GUIDE&CFID=723118469&CFTOKEN=55593935).
+ 
+This repository _is not_ the original repository for this tool. Here are some links to the original project:
+
+* [A video of the tool] (http://people.cs.umass.edu/~brun/video/Brun11esecfse/)
+* [The original Github page] (https://github.com/brunyuriy/crystalvc)
+
+In this repository, for Crystal you will find:
+
+:white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/tree/master/src/crystal) ( available)
+
+:white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal) (available)
+
+This repository was constructed by [Karan Singh Dagar](https://github.com/KaranDagar) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yuriy Brun , Reid Holmes , Michael D. Ernst and David Notkin for their help in establishing this repository.
+
