@@ -38,14 +38,14 @@ This work is supported by Microsoft Research through the Software Engineering In
 
 ##Acknowledgements by Karan Singh Dagar##
 
-#FSE-2011-Crystal
+##FSE-2011-Crystal
 
 This repository contains information related to the tool Crystal presented at Foundations of Software Engineering, 2011. The tool was originally presented in [this paper] (http://dl.acm.org/citation.cfm?id=2025113.2025187&coll=DL&dl=GUIDE&CFID=723118469&CFTOKEN=55593935).
  
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
+* [The Official Project Page] (https://github.com/brunyuriy/crystalvc)
 * [A video of the tool] (http://people.cs.umass.edu/~brun/video/Brun11esecfse/)
-* [The original Github page] (https://github.com/brunyuriy/crystalvc)
 
 In this repository, for Crystal you will find:
 
