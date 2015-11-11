@@ -4,8 +4,8 @@
 3. In the host, cd into the directory that contains the Vagrantfile and run the command "vagrant up".
 
 ###Note:
-* The VM boots up quickly and can be viewed from VirtualBox. But the "vagrant up" command runs up approximately for 15 - 20 minutes.
-* The basebox on which this VM is built is 
+* The VM boots up quickly and can be viewed from VirtualBox. But the "vagrant up" command runs up approximately for 20 - 30 minutes.
+* The basebox on which this VM is built is Ubuntu Desktop 15.04.
 * In case VM login details are required:
 
   Username: vagrant
@@ -13,3 +13,4 @@
   Password: vagrant
 
 ###Acknowledgements:
+Used vagrant virtual box image of [ubuntu1504-desktop by box-cutter](https://vagrantcloud.com/box-cutter/boxes/ubuntu1504-desktop)
