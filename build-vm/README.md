@@ -14,7 +14,7 @@
   Password: vagrant
 
 ###Acknowledgements:
-Used vagrant virtual box image of [ubuntu-desktop by rudolfochrist](https://atlas.hashicorp.com/rudolfochrist/boxes/ubuntu-desktop)
+Used vagrant virtual box image of [ubuntu-desktop by rudolfochrist](https://atlas.hashicorp.com/rudolfochrist/boxes/ubuntu-desktop).
 
 ###References:
 https://docs.vagrantup.com/v2/getting-started/
