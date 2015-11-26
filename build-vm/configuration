@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ccConfig tempDirectory="/home/vagrant/Documents/scratch space/" refresh="60">
-  <project Kind="HG" ShortName="Test" Clone="" commonParent="MASTER">
-    <source ShortName="MASTER" Clone="" Hidden="false" commonParent="MASTER" />
-    <source ShortName="Karan" Clone="" Hidden="false" commonParent="MASTER" />
-    <source ShortName="Priya" Clone="" Hidden="false" commonParent="MASTER" />
-    </project>
-</ccConfig>
