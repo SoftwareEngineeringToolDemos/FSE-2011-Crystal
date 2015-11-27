@@ -2,7 +2,7 @@
 Version=4.4
 Name=Crystal
 Comment=Crystal
-Exec=java -jar /home/vagrant/Desktop/Crystal.jar load=2
+Exec=java -jar /home/vagrant/Desktop/Crystal.jar 
 Type=Application
 Terminal=false
 NoDisplay=false
