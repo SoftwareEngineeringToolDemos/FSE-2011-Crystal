@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration file for Crystal conflict client. See documentation at -->
+
+<ccConfig tempDirectory="/home/vagrant/Desktop/" refresh="60">
+  <project Kind="HG" ShortName="MyFirstProject" Clone="/home/vagrant/Desktop/Tool-Demo/Master" commonParent="MASTER">
+    <source ShortName="MASTER" Clone="/home/vagrant/Desktop/Tool-Demo/Master" Hidden="false" commonParent="MASTER" />
+    <source ShortName="Karan" Clone="/home/vagrant/Desktop/Tool-Demo/Karan" Hidden="false" commonParent="MASTER" />
+    <source ShortName="Priya" Clone="/home/vagrant/Desktop/Tool-Demo/Priya" Hidden="false" commonParent="MASTER" />
+  </project>
+
+
+</ccConfig>
+
