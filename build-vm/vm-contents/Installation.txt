@@ -1,1 +1,42 @@
+******************************************************************************************************************************
+Attribution for Installation steps:
 
+https://github.com/brunyuriy/crystalvc/wiki/CrystalUserManual#Download_and_installation
+
+The following instructions were obtained from the original git repository authored by Yuriy Brun and colleagues.
+****************************************************************************************************************************
+
+Download and Installation:
+Crystal has the following requirements:
+1. JRE (Java Runtime Environment).
+2. Mercurial, version 1.6 or later or Git.
+3. The more of your co-workers' repositories you have read access to, the more useful Crystal will be. However, Crystal can be useful even if you only have access to your repository's parent.
+
+To install Crystal: 
+1. Download crystal.jar. (https://github.com/brunyuriy/crystalvc/raw/master/releases/crystal_2.0.20111120.jar)
+2. To run Crystal, either double click the crystal.jar file or execute from the command line: java -jar crystal.jar
+3. Crystal runs as an icon in your task bar. Click on the icon to see the full client and more options.
+4. The first time that you run Crystal, it will complain that your configuration file is invalid and give you instructions on how to fix it. You can do so either via a GUI that creates the configuration file for you, or by editing the configuration file directly.
+5. Restart Crystal.
+
+Crystal configuration file format: 
+
+1. Crystal configuration file is an XML file that describes the locations of the scratch space, the hg executable, and the repositories Crystal monitors. On a Unix-like environment, it appears in ~/.conflictClient.xml. On a Windows environment, it appears in the user's home directory, e.g., %UserProfile%.conflictClient.xml
+
+An example of configuration file: 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ccConfig tempDirectory="/scratch/conflictClient/" refresh="60">
+  <!-- First project uses dropbox to share repositories -->
+  <project ShortName="MyFirstProject" Kind="HG" Clone="$HOME/Dropbox/projects/MyLocalFirstProjectRepo/" parent="MASTER">
+    <source ShortName="MASTER" Clone="$HOME/Dropbox/projects/MASTER/MyLocalFirstProjectRepo/" commonParent="MASTER" />
+    <source ShortName="Friend" Clone="$HOME/Dropbox/projects/Friend/MyLocalFirstProjectRepo" commonParent="MASTER" />
+    <source ShortName="Enemy" Clone="$HOME/Dropbox/projects/Enemy/MyLocalFirstProjectRepo" commonParent="MASTER" />
+  </project>
+  <!-- Second project does not use dropbox to share repositories -->
+  <project ShortName="MySecondProject" Kind="HG" Clone="$HOME/projects/MyLocalSecondProjectRepo/"
+           parent="MASTER" compile="make" test="make test">
+    <source ShortName="MASTER" Clone="ssh://user@host/path/to/second/project/repo/" commonParent="MASTER" />
+    <source ShortName="Friend" Clone="https://user@host/path/to/friend/second/repo" commonParent="MASTER" />
+  </project>
+</ccConfig>
