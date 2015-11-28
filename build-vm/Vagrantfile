@@ -1,15 +1,66 @@
-Vagrant.configure("2") do |config|
- 
-  config.vm.box = "rudolfochrist/ubuntu-desktop"
+ config.vm.box = "rudolfochrist/ubuntu-desktop"
   config.vm.provider "virtualbox" do |vb|
      vb.gui = true
-     vb.name = "FSE-2011-CRYSTAL"
+     vb.name = "Karankya-Crystal1"
      vb.memory = "1024"
-   end
+  end
  config.vm.provision "shell", inline: <<-SHELL
+     # Install Java
      sudo apt-get update
      sudo apt-get install -y openjdk-7-jdk
      sudo apt-get install -y openjdk-7-jre	 
      sudo apt-get install -y openjdk-7-jre-headless
+	 
+	 # Install Tortoisehg with Mercurial
+	 sudo apt-get install -y tortoisehg
+	 
+	 # Install Crystal
+	 
+	 sudo wget -O /home/vagrant/Desktop/Crystal.jar "https://github.com/brunyuriy/crystalvc/raw/master/releases/crystal_2.0.20111120.jar"
+	 sudo chmod +x /home/vagrant/Desktop/Crystal.jar
+	 sudo wget -O  "/home/vagrant/.conflictClient.xml" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/.conflictClient.xml
+	  
+	 
+	sudo wget -O "/home/vagrant/Desktop/README.TXT"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/README.md
+	sudo wget -O "/home/vagrant/Desktop/License.TXT" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/License.txt
+	sudo wget -O "/home/vagrant/Desktop/Installation.TXT" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/Installation.txt
+		
+	sudo wget -O "/home/vagrant/Desktop/Youtube Video-Crystal.desktop"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/VideoDemoCrystal.desktop
+	
+	sudo wget  -O "/home/vagrant/Desktop/Project.zip" https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/archive/master.zip
+	
+	mkdir "/home/vagrant/Desktop/Tool Executable-Binary"
+	sudo unzip /home/vagrant/Desktop/Project.zip -d "/home/vagrant/Desktop/Tool Executable-Binary"
+	rm -rf /home/vagrant/Desktop/Project.zip
+	 
+	 
+	cd /home/vagrant/.config/
+	mkdir autostart
+	sudo wget -O "/home/vagrant/.config/autostart/RunCrystal.desktop"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/runCrystal.desktop 
+	 
+	 # Initiating repositories
+	 hg init /home/vagrant/Desktop/Tool-Demo/Master
+	 hg clone --verbose /home/vagrant/Desktop/Tool-Demo/Master /home/vagrant/Desktop/Tool-Demo/Karan
+	 hg clone --verbose /home/vagrant/Desktop/Tool-Demo/Master /home/vagrant/Desktop/Tool-Demo/Priya
+
+
+	 chmod -R 777 /home/vagrant/Desktop/Tool-Demo/
+	 
+	 
+     # Remove unnecessary launcher applications
+	 sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+	 sudo rm -f "/usr/share/applications/libreoffice-calc.desktop"
+	 sudo rm -f "/usr/share/applications/libreoffice-writer.desktop"
+	 sudo rm -f "/usr/share/applications/libreoffice-impress.desktop"
+	 sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
+	 
+	 # Reboot the VM
+	 sudo reboot
+	 
+	 
+	 
  SHELL
+ 
+ 
+  
 end
