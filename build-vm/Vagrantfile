@@ -1,7 +1,7 @@
  config.vm.box = "rudolfochrist/ubuntu-desktop"
   config.vm.provider "virtualbox" do |vb|
      vb.gui = true
-     vb.name = "Karankya-Crystal1"
+     vb.name = "FSE-2011-Crystal"
      vb.memory = "1024"
   end
  config.vm.provision "shell", inline: <<-SHELL
@@ -20,20 +20,20 @@
 	 sudo chmod +x /home/vagrant/Desktop/Crystal.jar
 	 sudo wget -O  "/home/vagrant/.conflictClient.xml" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/.conflictClient.xml
 	  
-	 
+	# Install Readme.txt ,License.txt , Installation.txt and youtube video link to desktop 
 	sudo wget -O "/home/vagrant/Desktop/README.TXT"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/README.md
 	sudo wget -O "/home/vagrant/Desktop/License.TXT" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/License.txt
 	sudo wget -O "/home/vagrant/Desktop/Installation.TXT" https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/Installation.txt
 		
 	sudo wget -O "/home/vagrant/Desktop/Youtube Video-Crystal.desktop"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/VideoDemoCrystal.desktop
-	
+	# Tool Executable-Binary to desktop
 	sudo wget  -O "/home/vagrant/Desktop/Project.zip" https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/archive/master.zip
 	
 	mkdir "/home/vagrant/Desktop/Tool Executable-Binary"
 	sudo unzip /home/vagrant/Desktop/Project.zip -d "/home/vagrant/Desktop/Tool Executable-Binary"
 	rm -rf /home/vagrant/Desktop/Project.zip
 	 
-	 
+	# Autostart Crystal on re-boot 
 	cd /home/vagrant/.config/
 	mkdir autostart
 	sudo wget -O "/home/vagrant/.config/autostart/RunCrystal.desktop"  https://raw.githubusercontent.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/master/build-vm/vm-contents/runCrystal.desktop 
