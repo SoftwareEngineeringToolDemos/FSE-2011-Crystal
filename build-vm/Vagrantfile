@@ -1,7 +1,7 @@
  config.vm.box = "rudolfochrist/ubuntu-desktop"
   config.vm.provider "virtualbox" do |vb|
      vb.gui = true
-     vb.name = "FSE-2011-Crystal"
+     vb.name = "Crystal"
      vb.memory = "1024"
   end
  config.vm.provision "shell", inline: <<-SHELL
