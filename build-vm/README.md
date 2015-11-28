@@ -8,7 +8,7 @@
    * TortoiseHg (Mercurial)
   * Crystal 
   * 3 test repositories under folder "Tool-Demo" on desktop.
-  * README.txt, Installation.txt, License.txt, Tool Executable-Binary folder, link to Youtube video of tool on desktop.
+  * README.txt, Installation.txt, License.txt, Tool Executable-Binary folder and link to Youtube video of tool on desktop.
 
 ### Important Note:
 * When you enter "vagrant up" command, the VM boots up for the first time without anything on desktop because the script
