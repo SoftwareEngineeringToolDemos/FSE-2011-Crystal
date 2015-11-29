@@ -25,12 +25,15 @@
   Password: vagrant
 
 ###Acknowledgements:
-Used vagrant virtual box image of [ubuntu-desktop by rudolfochrist](https://atlas.hashicorp.com/rudolfochrist/boxes/ubuntu-desktop).
+* Used vagrant virtual box image of [ubuntu-desktop by rudolfochrist](https://atlas.hashicorp.com/rudolfochrist/boxes/ubuntu-desktop).
 
-For disabling the usb settings in vagrant, used the code from: http://hameedullah.com/vagrant-101-basic-virtual-machine-customizations.html
+* For disabling the usb settings in vagrant, used the code from: http://hameedullah.com/vagrant-101-basic-virtual-machine-customizations.html
 
-For access permissions to file (chmod) , used the command from:
+* For access permissions to file (chmod) , used the command from:
 http://askubuntu.com/questions/303593/how-can-i-chmod-777-all-subfolders-of-var-www
+
+* For disabling the screen lock, used the command from: 
+http://ubuntuhandbook.org/index.php/2013/07/disable-screen-lock-ubuntu-13-04/
 
 ###References:
 https://docs.vagrantup.com/v2/getting-started/
