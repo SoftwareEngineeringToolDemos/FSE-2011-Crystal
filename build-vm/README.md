@@ -27,6 +27,8 @@
 ###Acknowledgements:
 Used vagrant virtual box image of [ubuntu-desktop by rudolfochrist](https://atlas.hashicorp.com/rudolfochrist/boxes/ubuntu-desktop).
 
+For disabling the usb settings in vagrant, used the code from http://hameedullah.com/vagrant-101-basic-virtual-machine-customizations.html
+
 ###References:
 https://docs.vagrantup.com/v2/getting-started/
 
