@@ -53,7 +53,7 @@ In this repository, for Crystal you will find:
 
 * :white_check_mark: [The original tool](https://github.com/brunyuriy/crystalvc/wiki/CrystalUserManual) (available)
 
-* :x: Binaries of the project (Not available)
+* :white_check_mark: [Binaries of the project](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/tree/master/lib) (available)
 
 * :white_check_mark: [Vagrant script to create the Virtual Machine containing the tool] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/blob/master/build-vm/Vagrantfile) (available)
 
