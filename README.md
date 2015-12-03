@@ -49,9 +49,15 @@ This repository _is not_ the original repository for this tool. Here are some li
 
 In this repository, for Crystal you will find:
 
-:white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/tree/master/src/crystal) ( available)
+:white_check_mark: [Source code](https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/tree/master/src/crystal) (available)
 
 :white_check_mark: [The original tool](https://github.com/brunyuriy/crystalvc/wiki/CrystalUserManual) (available)
+
+:x: Binaries of the project (Not available)
+
+:white_check_mark: [Vagrant script to create the Virtual Machine containing the tool] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/blob/master/build-vm/Vagrantfile) (available)
+
+:white_check_mark: [Virtual Machine containing the tool] (https://drive.google.com/a/ncsu.edu/folderview?id=0B3GbPov8x279UFNIOFJGN1hlUEk&usp=sharing&tid=0B3GbPov8x279UWFHSDNrRWZkems) (available)
 
 This repository was constructed by [Karan Singh Dagar](https://github.com/KaranDagar) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yuriy Brun , Reid Holmes , Michael D. Ernst and David Notkin for their help in establishing this repository.
 
