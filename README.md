@@ -57,7 +57,7 @@ In this repository, for Crystal you will find:
 
 * :white_check_mark: [Vagrant script to create the Virtual Machine containing the tool] (https://github.com/SoftwareEngineeringToolDemos/FSE-2011-Crystal/blob/master/build-vm/Vagrantfile) (available)
 
-* :white_check_mark: [Virtual Machine containing the tool] (https://drive.google.com/a/ncsu.edu/file/d/0B5uuaHqe8IlPN0pua1lBLVA5clE/view) (available)
+* :white_check_mark: [Virtual Machine containing the tool] (https://drive.google.com/a/ncsu.edu/file/d/0B5uuaHqe8IlPaUZaZmJDOXNlY2c/view) (available)
 
 This repository was constructed by [Karan Singh Dagar](https://github.com/KaranDagar) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Yuriy Brun , Reid Holmes , Michael D. Ernst and David Notkin for their help in establishing this repository.
 
