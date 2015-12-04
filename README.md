@@ -45,6 +45,7 @@ This repository contains information related to the tool Crystal presented at Fo
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
 * [The Official Project Page, including source code] (https://github.com/brunyuriy/crystalvc)
+* [The original download link] (https://github.com/brunyuriy/crystalvc/wiki/CrystalUserManual)
 * [A video of the tool] (http://people.cs.umass.edu/~brun/video/Brun11esecfse/)
 
 In this repository, for Crystal you will find:
